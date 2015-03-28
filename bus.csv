@@ -1,2 +1,17 @@
-Attribute,Property,Type,Description
-id:dcterms,identifier,xsd:string,Unique number of bus belong a corporation
+Atributo,URI Propiedad,Rango de la propiedad,Descripción
+identificador,dcterms:identifier,xsd:string,Unique number of bus belong a corporation
+Corporation,emt:organization,http://schema.org/Organization,organization to which the bus belongs
+DateIni,dcterms:date,xsd:dateTime,Begin date of current information
+DateEnd,dcterms:valid,xsd:dateTime,End date of current information
+Deposit,emt:deposito,http://openbus.emtmadrid.es/def/transporte#Deposito,Deposit which it belongs
+Brand,schema:brand,http://schema.org/Brand,Brand of bus
+Model,schema:model,http://schema.org/ProductModel,Model of the bus
+Version,emt:version,xsd:string,Number of version into a specific model
+Plate,emt:matricula,xsd:string,Plate id of the bus
+DateIniCorp,emt:operationalStartDate,xsd:dateTime,Date when the bus start in the company 
+DatePlate,emt:fechaMatriculacion,xsd:dateTime,Date when the bus was plated
+CapacityType,emt:capacityType,skos:Concept,Type of capacity (ej: long/small/etc)
+FuelType,emt:fuelType,skos:Concept,Type of fuel (ej; gas/electricity/etc)
+AccesibilityType,emt:accessibilityType,skos:Concept,Type of accesibility
+PlacesMax,emt:maxCapacity,xsd:int,Max quantity of people who fit in the bus 
+PlacesQual,emt:maxOptimalCapacity,xsd:init,Max quantity of people in the optimal trip
