@@ -1,2 +1,2 @@
-Attribute;Property;Type;Description
-id:dcterms;identifier;xsd:string;Unique number of bus belong a corporation
+Attribute,Property,Type,Description
+id:dcterms,identifier,xsd:string,Unique number of bus belong a corporation
