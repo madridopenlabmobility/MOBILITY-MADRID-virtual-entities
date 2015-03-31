@@ -1,12 +1,12 @@
 Attribute,URI Property,Range of property,Description
 layer, Mobilitymadrid:elements, http://mobilitylab.emtmadrid.es/schemas/elements(skos:elementtype),Kind of element into the elements layer
 domain,Mobilitymadrid:domains,http://mobilitylab.emtmadrid.es/schemas/domains(skos:domain),Domain of data (for example transport.madrid.line.thing)
-@context,"elementtype": idline, http://mobilitylab.emtmadrid.es/schemas/layer, Define the context for lines 
+@context,elementtype: idline, http://mobilitylab.emtmadrid.es/schemas/layer, Define the context for lines 
 Corporation,Mobilitymadrid:corporation,http://mobilitylab.emtmadrid.es/schemas/corporation,organization to which it belongs
 DateIni,Dcterms:date,xsd:dateTime,Begin date of current information
 DateEnd,Dcterms:valid,xsd:dateTime,End date of current information
 Deposit,mobilitymadrid:deposit,http://mobilitylab.emtmadrid.es/def/transporte#Deposit,Deposit which it belongs
-Group,Mobilitymadrid: subgrouplines,http://mobilitylab.emtmadrid.es/schemas/tables(skios:subgroup),Each line belongs to subgroup of lines (ej. Nightly Universitary…)
+Group,Mobilitymadrid: subgrouplines,http://mobilitylab.emtmadrid.es/schemas/tables(skios:subgroup),Each line belongs to subgroup of lines (ej. Nightly Universitaryâ€¦)
 Label,Schema:alternateName,http://schema.org/alternateName,Public identifier of the line
 Brand,Schema:brand,http://schema.org/Brand,Brand of bus
 Model,Schema:model,https://schema.org/ProductModel,Model which belongs into Brand
