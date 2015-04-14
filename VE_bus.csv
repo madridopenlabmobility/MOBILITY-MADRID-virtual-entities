@@ -4,7 +4,7 @@ idBus,[id of bus],schemas:Number,https://schemas.org/Number,Unique identifier of
 corporation,EMT,Mobilitymadrid:corporation,https://schemas.org/Corporation,organization to which it belongs
 dateIni,[date ini],Dcterms:date,xsd:dateTime,Begin date of current information
 dateEnd,[date end],Dcterms:valid,xsd:dateTime,End date of current information
-depo,[id depo],mobilitymadrid:depo,http://mobilitylab.emtmadrid.es/def/transport#Depo,Deposit which it belongs
+depo,[id depo],mobilitymadrid:depo,http://mobilitylab.emtmadrid.es/def/transport#Depo,Deposit which it belongs 
 brand,[name of brand],mobilitymadrid:brand,http://mobilitylab.emtmadrid.es/def/transport#Brand,Brand of bus
 model,[name of model],mobilitymadrid:model,http://mobilitylab.emtmadrid.es/def/transport#Model,Model which belongs into Brand
 version,[num],schemas:Number,https://schema.org/Number,Number of version into a specific model 
