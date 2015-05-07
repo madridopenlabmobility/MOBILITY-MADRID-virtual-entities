@@ -1,4 +1,4 @@
-# EMT-virtual-entities
+# MADRID-virtual-entities
 Vocabulary that is being used for EMT
 
 It contains the following entities:
