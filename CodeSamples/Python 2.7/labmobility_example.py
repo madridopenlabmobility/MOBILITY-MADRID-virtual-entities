@@ -8,7 +8,7 @@ The Reactive Box is a Meteor Server which includes many layers of data.
 Current example shows the way of make subscription at Realtime BusPosition and BusStops arrival times.
 More information about the open layers of RB Mobility Madrid in
 https://github.com/madridopenlabmobility/MOBILITY-MADRID-virtual-entities 
-    or asking at EMT Madrid using the form in http://opendata.emtmadrid.es/Contacto.aspx?lang=en-GB 
+    or asking EMT Madrid using the form in http://opendata.emtmadrid.es/Contacto.aspx?lang=en-GB 
     
 For use this program must be include:
 MeteorClient https://github.com/hharnisc/python-meteor
