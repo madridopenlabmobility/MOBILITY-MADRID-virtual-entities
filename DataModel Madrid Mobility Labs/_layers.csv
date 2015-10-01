@@ -1,0 +1,19 @@
+Attribute,Value,Property,URI,Description
+_id,id Layer,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/catalog/layers/busmadrid,kind of layer into RB. Layer ontology describes data domain - Reactive Box and other elements of this entity
+collections,array of collections,,,Array with all collection of layer
+collection.name,[name of collecgtion],schemas:Text,https://schema.org/Text,Name of the collection
+collection.geo,dcterms:boolean,xsd:boolean,Bus active True/False,Collection contains geo attributes or not
+address,postal address,schemas:address,https://schema.org/address,Country address
+city,[Name of City],schemas:name,https://schema.org/City,Sample: Madrid
+phone,[id phone],schemas:telephone,https://schema.org/telephone,
+mail,[value],Schema:email,https://schema.org/email,email of contact person
+config,[value],structure,https://mobilitylab.emtmadrid.es/clayers/config,Configuration data of layer
+domain,[domain],skos:domain,https://mobilitylab.emtmadrid.es/catalog/domains/,domain of context of this layer (can be: MOBILITY - HEATING - ELECTRICITY or others)
+subdomain,[subdomain],skos:subdomain,https://mobilitylab.emtmadrid.es/catalog/subdomains/,sector or context into a specific domain (in context of MOBILITY could be: PUBLIC TRANSPORT - TRAFFIC)
+context,[context],skos:context,https://mobilitylab.emtmadrid.es/catalog/context/,context into a specific subdomain (in PUBLIC TRANSPORT could be BUS SERVICE - METRO - TRAIN)
+description,[description of layer],schemas:Text,https://schema.org/Text,Description of this layer
+developer,[description of layer],schemas:Text,https://schema.org/Text,Description of developer or responsible
+icon,[URL of icon],schemas:URL,https://schemas.org/URL,Icon for representation the layer
+label,[description of layer],schemas:Text,https://schema.org/Text,label or public name of layer
+owner,[description of layer],schemas:Text,https://schema.org/Text,owner of layer
+rbAddress,[URL of Reactive Box),schemas:URL,https://schemas.org/URL,URL of Reactive Box who this layer is produced
