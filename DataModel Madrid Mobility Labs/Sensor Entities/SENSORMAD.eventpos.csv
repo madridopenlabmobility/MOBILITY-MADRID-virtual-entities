@@ -4,7 +4,7 @@ idDevice,[_id],Schema:text,http://schema.org/Text,Unique id of sensor into syste
 instant,[date time value],dcterms:date,xsd:datetime,Instant of data generation
 geometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2, Geo-point of current position of sensor
 accuracy,[value],schemas:Text,https://schemas.org/Text,Class or characteristics of value
-shape,[value],structure object,object,for painting in map (icon, size, color)
+shape,[value],structure object,object,for painting in map (icon size color)
 acelerometer,value,schemas:Number,https://schemas.org/Number,Section of route where bus is position in current time
 battery ,[idSection],schemas:Number,https://schemas.org/Number,Section of route where bus is position in current time
 socket,[value],schemas:Text,https://schemas.org/Text,Name of device or sensor
