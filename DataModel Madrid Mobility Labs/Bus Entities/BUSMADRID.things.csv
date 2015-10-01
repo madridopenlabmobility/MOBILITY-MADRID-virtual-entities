@@ -9,5 +9,5 @@ Model,[name of model],mobilitymadrid:model,http://mobilitylab.emtmadrid.es/def/t
 Version,[num],schemas:Number,https://schema.org/Number,Number of version into a specific model 
 Plate,[id plate],schemas:Text,https://schemas.org/Text,Plate id of bus
 capacity,[num],schemas:Number,https://schemas.org/Number,Max capacity  of passengers
-fuelType,[type of fuel],Mobilitymadrid:fuelType,http://mobilitylab.emtmadrid.es/def/transport#fueltype,Type of fuel (ej, gas, electricity, etc)
+fuelType,[type of fuel],Mobilitymadrid:fuelType,http://mobilitylab.emtmadrid.es/def/transport#fueltype,Type of fuel ( gas electricity etc)
 AccesibilityType,[type of accesibility],Mobilitymadrid:accessibilitytype,http://mobilitylab.emtmadrid.es/def/transport#accesibilitytype,Type of accesibility
