@@ -1,0 +1,12 @@
+Attribute,Value,Property,URI,Description
+layer,SEN___MAD.eventpos,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#sensormad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity.  (___) is substituted by three digit whith the class of sensor
+idDevice,[_id],Schema:text,http://schema.org/Text,Unique id of sensor into system
+instant,[date time value],dcterms:date,xsd:datetime,Instant of data generation
+geometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2, Geo-point of current position of sensor
+accuracy,[value],schemas:Text,https://schemas.org/Text,Class or characteristics of value
+shape,[value],structure object,object,for painting in map (icon, size, color)
+acelerometer,value,schemas:Number,https://schemas.org/Number,Section of route where bus is position in current time
+battery ,[idSection],schemas:Number,https://schemas.org/Number,Section of route where bus is position in current time
+socket,[value],schemas:Text,https://schemas.org/Text,Name of device or sensor
+value,[value],ssn:MeasurementCapability,http://purl.oclc.org/NET/ssnx/ssn#MeasurementCapability,Characteristics of meassures and context conditions
+busData,[value],JSON structure,JSON structure,data of bus when the user device is linked to
