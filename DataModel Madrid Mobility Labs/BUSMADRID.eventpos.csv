@@ -1,1 +1,22 @@
-Attribute,Value,Property,URI,Descriptionlayer,BUSMADRID.dataevent,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#busEventMad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entityidBus,[_id],Schema:text,http://schema.org/Text,Unique id of bus  into systemdateServ,[date value],dcterms:date,xsd:datetime,Date of line-service (can be distinct of instant of current event)idLine,[idLine],Schema:text,http://schema.org/Text,Line which the service is workinglogicBus,[value],schema:text,http://schema.org/Text,Number of a bus logic (this is not an idBus)idStop,[idStop],Schema:text,http://schema.org/Text,Next or current stop where bus is passthruinstant,[date time value],dcterms:date,xsd:datetime,Instant of the current eventgeometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of current position of eventprivate,array of,,,Next items are for internal use onlyprivate.idDriver,[idDriver],Schema:text,http://schema.org/Text,Driver id who is working in the service busprivate.shift,[value],schemas:Number,https://schemas.org/Number,Shift of driverprivate.part,[value],schemas:Number,https://schemas.org/Number,Part of shift of driverprivate.stateLoc,[value],schemas:Number,https://schemas.org/Number,Status of location of busprivate.event,[value],mobilitymadrid:eventtype,http://mobilitylab.emtmadrid.es/def/transport#eventtype,Class or kind of eventdistance,[value],schemas:Number,https://schemas.org/Number,Distance in meters from begining of itinerarystatusbus,[value],mobilitymadrid:statuscodebus,http://mobilitylab.emtmadrid.es/def/transport#statuscode,Status of the bus servicefrequency,[value],schemas:Number,https://schemas.org/Number,Frequency on seconds from the bus inmediately beforedelaytimetable,[value],schemas:Number,https://schemas.org/Number,delay on seconds from the theoretical timetableidTrip,[value],schemas:Number,https://schemas.org/Number,Number of triptimeIni,[date time value],dcterms:date,xsd:datetime,Theoretical time of start of tripactive,[value],dcterms:boolean,xsd:boolean,Bus active True/False
+Attribute,Value,Property,URI,Description
+layer,BUSMADRID.eventpos,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#busEventMad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity
+idBus,[_id],Schema:text,http://schema.org/Text,Unique id of bus  into system
+dateServ,[date value],dcterms:date,xsd:datetime,Date of line-service (can be distinct of instant of current event)
+idLine,[idLine],Schema:text,http://schema.org/Text,Line which the service is working
+logicBus,[value],schema:text,http://schema.org/Text,Number of a bus logic (this is not an idBus)
+idStop,[idStop],Schema:text,http://schema.org/Text,Next or current stop where bus is passthru
+instant,[date time value],dcterms:date,xsd:datetime,Instant of the current event
+geometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of current position of event
+private,array of,,,Next items are for internal use only
+private.idDriver,[idDriver],Schema:text,http://schema.org/Text,Driver id who is working in the service bus
+private.shift,[value],schemas:Number,https://schemas.org/Number,Shift of driver
+private.part,[value],schemas:Number,https://schemas.org/Number,Part of shift of driver
+private.stateLoc,[value],schemas:Number,https://schemas.org/Number,Status of location of bus
+private.event,[value],mobilitymadrid:eventtype,http://mobilitylab.emtmadrid.es/def/transport#eventtype,Class or kind of event
+distance,[value],schemas:Number,https://schemas.org/Number,Distance in meters from begining of itinerary
+statusbus,[value],mobilitymadrid:statuscodebus,http://mobilitylab.emtmadrid.es/def/transport#statuscode,Status of the bus service
+frequency,[value],schemas:Number,https://schemas.org/Number,Frequency on seconds from the bus inmediately before
+delaytimetable,[value],schemas:Number,https://schemas.org/Number,delay on seconds from the theoretical timetable
+idTrip,[value],schemas:Number,https://schemas.org/Number,Number of trip
+timeIni,[date time value],dcterms:date,xsd:datetime,Theoretical time of start of trip
+active,[value],dcterms:boolean,xsd:boolean,Bus active True/False
