@@ -1,5 +1,5 @@
 Attribute,Value,Property,URI,Description
-layer,BUSMADRID.things,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#busmadrid,kind of layer into RB. Layer ontology describes data domain, Reactive Box and other elements of this entity
+layer,BUSMADRID.things,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#busmadrid,kind of layer into RB. Layer ontology describes data domain Reactive Box and other elements of this entity
 idbus,[id of bus],schemas:Number,https://schemas.org/Number,Unique identifier of bus into EMT Company
 DateIni,[date ini],Dcterms:date,xsd:dateTime,Begin date of current information
 DateEnd,[date end],Dcterms:valid,xsd:dateTime,End date of current information
