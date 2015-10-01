@@ -1,46 +1,46 @@
-Attribute;Value;Property;URI;Description
-layer;ROUTESMAD.userplan;mobilitymadrid:layers;http://mobilitylab.emtmadrid.es/def/layers#usereventmad;kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity
-idRoute;[_id];Schema:text;http://schema.org/Text;Unique id of route plan
-typeRoute;[type of routes];Mobilitymadrid:routestype;http://mobilitylab.emtmadrid.es/def/transport#routestype;Type of route (example: carespaceialperson)
-instant;[date time value];dcterms:date;xsd:datetime;Instant of the create this calc
-nameRouteUser;[value];Schema:text;http://schema.org/Text;ID of user of route plan
-nameRouteResults;[value];Schema:text;http://schema.org/Text;Name of current into the Transport System
-geometryStart;GEOJSON;point object;http://geojson.org/geojson-spec.html#id2;Representation of geo-point of start of Route
-geometryEnd;GEOJSON;point object;http://geojson.org/geojson-spec.html#id2;Representation of geo-point of end of Route
-daysWeek;[type or week days];Mobilitymadrid:weekDays;http://mobilitylab.emtmadrid.es/def/transport#weekdays;Days of week which this route is used from the user
-daysType;[type or service days];Mobilitymadrid:daystype;http://mobilitylab.emtmadrid.es/def/transport#daystype;kind of day which user uses the route (ej: LA = Working day SA.- Saturday FE.- Festive
-dateInitial;[date ini];Dcterms:date;xsd:dateTime;Begin date of the route is used from user 
-dateEnd;[date end];Dcterms:valid;xsd:dateTime;end date of the route is used from user 
-hourInitial;xsd_time;Dcterms:time;xsd:Time; hour Begin for using de route
-hourEnd;xsd_time;Dcterms:time;xsd:Time; hour End for using de route
-longJourney;[value];schemas:Number;https://schemas.org/Number;Full time calculated in the trip (including walking and bus trips)
-transfers;[value];schemas:Number;https://schemas.org/Number;Qty of transfers (one or more bus lines)
-generalRouteDescription;ARRAY;ARRAY;ARRAY;Current array represented de routes description grouping and sourting with Order of route
-route.order;[value];schemas:Number;https://schemas.org/Number;Leg or fragment of trip (order into the array)
-route.typeLeg;[value];Schema:text;http://schema.org/Text;Kind of segment of trip (W=walking B=Bus)
-route.from;[value];Schema:text;http://schema.org/Text;Name from of current segment
-route.to;[value];Schema:text;http://schema.org/Text;Name to of current segment
-route.theorTimeToSpend;[value];schemas:Number;https://schemas.org/Number;Theoretical Time of this part of trip
-route.realTimeToSpendMin;[value];schemas:Number;https://schemas.org/Number;Minimal Real Time of this part of trip
-route.realTimeToSpendMax;[value];schemas:Number;https://schemas.org/Number;Maximal Real Time of this part of trip
-route.realTimeToSpendAvg;[value];schemas:Number;https://schemas.org/Number;Average Real Time of this part of trip
-route.geometryFrom;GEOJSON;point object;http://geojson.org/geojson-spec.html#id2;Representation of geo-point of start of current segment
-route.geometryTo;GEOJSON;point object;http://geojson.org/geojson-spec.html#id2;Representation of geo-point of end of current segment
-route.descriptionLeg;[value];Schema:text;http://schema.org/Text;description of current route segment
-route.idLine;[id of line];schemas:Number;https://schemas.org/Number;Unique identifier of line into EMT Company
-route.nameLineA;[name sect];schemas:Text;https://schemas.org/Text;Public Name of section of Line FROM
-route.nameLineB;[name sect];schemas:Text;https://schemas.org/Text;Public Name of section of Line TO
-route.idStopFrom;[id of stop];schemas:Number;https://schemas.org/Number;identifier of stop which this segment of bus route starting
-route.nameStopFrom;[name of stop];schemas:Text;https://schemas.org/Text;Public Name of source Stop
-route.idStopTo;[id of stop];schemas:Number;https://schemas.org/Number;identifier of stop which this segment of bus route ending
-route.nameStopTo;[name of stop];schemas:Text;https://schemas.org/Text;Public Name of target Stop
-route.detailRouteDescripcion;ARRAY;ARRAY;ARRAY;This ARRAY contains de multiline details of routes
-route.routePoints;GEOJSON;multilineObject;http://geojson.org/geojson-spec.html#id6;Multilinestring of checkPoints of Route where the systems check de route
-route.stopPoints;GEOJSON;multipointobjetc;http://geojson.org/geojson-spec.html#id5;Multipoint of Stops of this segment of trip
-checkPointsRoute;GEOJSON;multipointobjetc;http://geojson.org/geojson-spec.html#id6;Multilinestring of checkPoints of Route where the systems check de route
-typeCheck;[value];schemas:Text;http://mobilitylab.emtmadrid.es/def/transport#chkpointtype;Type of check point
-timeCheckPointsRoute;[objectvalue]; ;https://schemas.org/Text;Array of objetcs, one position per multiline string of checkPointsRoute with (theoretical time minimal time maximal time average time)
-checkPointsStops;GEOJSON;multipointobjetc;http://geojson.org/geojson-spec.html#id6;Multipoint of checkPoints of Route where the systems check de route
-numberStop;[value];schemas:Number;https://schemas.org/Number;Number Stop of check point
-nameStop;[value];schemas:Text;https://schemas.org/Text;Name of stop in check point
-timeCheckPointsStops;[objectvalue];Objetc;https://schemas.org/Text;Array of objetcs, one position per multiline string of checkPointStops with (theoretical time minimal time  maximal time average time)
+Attribute,Value,Property,URI,Description
+layer,ROUTESMAD.userplan,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#usereventmad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity
+idRoute,[_id],Schema:text,http://schema.org/Text,Unique id of route plan
+typeRoute,[type of routes],Mobilitymadrid:routestype,http://mobilitylab.emtmadrid.es/def/transport#routestype,Type of route (example: carespaceialperson)
+instant,[date time value],dcterms:date,xsd:datetime,Instant of the create this calc
+nameRouteUser,[value],Schema:text,http://schema.org/Text,ID of user of route plan
+nameRouteResults,[value],Schema:text,http://schema.org/Text,Name of current into the Transport System
+geometryStart,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of start of Route
+geometryEnd,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of end of Route
+daysWeek,[type or week days],Mobilitymadrid:weekDays,http://mobilitylab.emtmadrid.es/def/transport#weekdays,Days of week which this route is used from the user
+daysType,[type or service days],Mobilitymadrid:daystype,http://mobilitylab.emtmadrid.es/def/transport#daystype,kind of day which user uses the route (ej: LA = Working day SA.- Saturday FE.- Festive
+dateInitial,[date ini],Dcterms:date,xsd:dateTime,Begin date of the route is used from user 
+dateEnd,[date end],Dcterms:valid,xsd:dateTime,end date of the route is used from user 
+hourInitial,xsd_time,Dcterms:time,xsd:Time, hour Begin for using de route
+hourEnd,xsd_time,Dcterms:time,xsd:Time, hour End for using de route
+longJourney,[value],schemas:Number,https://schemas.org/Number,Full time calculated in the trip (including walking and bus trips)
+transfers,[value],schemas:Number,https://schemas.org/Number,Qty of transfers (one or more bus lines)
+generalRouteDescription,ARRAY,ARRAY,ARRAY,Current array represented de routes description grouping and sourting with Order of route
+route.order,[value],schemas:Number,https://schemas.org/Number,Leg or fragment of trip (order into the array)
+route.typeLeg,[value],Schema:text,http://schema.org/Text,Kind of segment of trip (W=walking B=Bus)
+route.from,[value],Schema:text,http://schema.org/Text,Name from of current segment
+route.to,[value],Schema:text,http://schema.org/Text,Name to of current segment
+route.theorTimeToSpend,[value],schemas:Number,https://schemas.org/Number,Theoretical Time of this part of trip
+route.realTimeToSpendMin,[value],schemas:Number,https://schemas.org/Number,Minimal Real Time of this part of trip
+route.realTimeToSpendMax,[value],schemas:Number,https://schemas.org/Number,Maximal Real Time of this part of trip
+route.realTimeToSpendAvg,[value],schemas:Number,https://schemas.org/Number,Average Real Time of this part of trip
+route.geometryFrom,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of start of current segment
+route.geometryTo,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2,Representation of geo-point of end of current segment
+route.descriptionLeg,[value],Schema:text,http://schema.org/Text,description of current route segment
+route.idLine,[id of line],schemas:Number,https://schemas.org/Number,Unique identifier of line into EMT Company
+route.nameLineA,[name sect],schemas:Text,https://schemas.org/Text,Public Name of section of Line FROM
+route.nameLineB,[name sect],schemas:Text,https://schemas.org/Text,Public Name of section of Line TO
+route.idStopFrom,[id of stop],schemas:Number,https://schemas.org/Number,identifier of stop which this segment of bus route starting
+route.nameStopFrom,[name of stop],schemas:Text,https://schemas.org/Text,Public Name of source Stop
+route.idStopTo,[id of stop],schemas:Number,https://schemas.org/Number,identifier of stop which this segment of bus route ending
+route.nameStopTo,[name of stop],schemas:Text,https://schemas.org/Text,Public Name of target Stop
+route.detailRouteDescripcion,ARRAY,ARRAY,ARRAY,This ARRAY contains de multiline details of routes
+route.routePoints,GEOJSON,multilineObject,http://geojson.org/geojson-spec.html#id6,Multilinestring of checkPoints of Route where the systems check de route
+route.stopPoints,GEOJSON,multipointobjetc,http://geojson.org/geojson-spec.html#id5,Multipoint of Stops of this segment of trip
+checkPointsRoute,GEOJSON,multipointobjetc,http://geojson.org/geojson-spec.html#id6,Multilinestring of checkPoints of Route where the systems check de route
+typeCheck,[value],schemas:Text,http://mobilitylab.emtmadrid.es/def/transport#chkpointtype,Type of check point
+timeCheckPointsRoute,[objectvalue], ,https://schemas.org/Text,Array of objetcs. one position per multiline string of checkPointsRoute with (theoretical time minimal time maximal time average time)
+checkPointsStops,GEOJSON,multipointobjetc,http://geojson.org/geojson-spec.html#id6,Multipoint of checkPoints of Route where the systems check de route
+numberStop,[value],schemas:Number,https://schemas.org/Number,Number Stop of check point
+nameStop,[value],schemas:Text,https://schemas.org/Text,Name of stop in check point
+timeCheckPointsStops,[objectvalue],Objetc,https://schemas.org/Text,Array of objetcs. one position per multiline string of checkPointStops with (theoretical time minimal time  maximal time average time)
