@@ -1,0 +1,14 @@
+Attribute,Value,Property,URI,Description
+layer,LINEBUSMAD.things,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#linebusmad,kind of layer into RB. Layer ontology describes data domain Reactive Box and other elements of this entity
+idLine,[id of line],schemas:Number,https://schemas.org/Number,Unique identifier of line into EMT Company
+dateIni,[date ini],Dcterms:date,xsd:dateTime,Begin date of current information
+dateEnd,[date end],Dcterms:valid,xsd:dateTime,End date of current information
+depo,[id depo],mobilitymadrid:depo,http://mobilitylab.emtmadrid.es/def/transport#Depo,Deposit which it belongs
+group,[cod group],mobilitymadrid:group,http://mobilitylab.emtmadrid.es/def/transport#group,Each line belongs to subgroup of lines (ej. Nightly Universitary…)
+label,[id label],schemas:AlernateName,https://schemas.org/AlternateName,Public identifier of the line
+sections,Array,Array,Array,Array of sections (each itinerary) ¿JSON-LD?
+section.sectionId,[id section],schemas:Number,https://schemas.org/Number,Itineraty 1 2 etc
+section.name,[name sect],schemas:Text,https://schemas.org/Text,Public Name of section
+section.length,[value],schemas:Number,https://schemas.org/Number,Distance in meters of current section
+section.geometryLine,GEOJSON,multiline object,http://geojson.org/geojson-spec.html#id6,Representation of vials on itinerary of section
+section.geometryStops,GEOJSON,multiline object,http://geojson.org/geojson-spec.html#id6,Representation of stops on itinerary of section
