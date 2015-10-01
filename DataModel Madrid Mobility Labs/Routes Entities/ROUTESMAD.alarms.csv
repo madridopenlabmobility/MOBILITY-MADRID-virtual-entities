@@ -1,0 +1,11 @@
+Attribute,Value,Property,URI,Description
+layer,ROUTESMAD.alarms,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#usereventmad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity
+_id,[_id],Schema:text,http://schema.org/Text,Unique id of item
+instant,[date time value],dcterms:date,xsd:datetime,Instant of data generation
+geometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2, Geo-point of current position of user
+idRoute,[_id],Schema:text,http://schema.org/Text,Unique id of route plan
+idSesion,[value],Schema:text,http://schema.org/Text,Current session of user track
+busData,[value],JSON structure,JSON structure,data of bus when the user device is linked to
+levelAlarm,[level of alarm],Mobilitymadrid:levelalarms,http://mobilitylab.emtmadrid.es/def/transport#levelalarms,level of alarm (Info Warn Fatal)
+codeAlarm,[code of alarm],Mobilitymadrid:codealarm,http://mobilitylab.emtmadrid.es/def/transport#codealarm,code of alarm
+textAlarm,[value],Schema:text,http://schema.org/Text,Description of current alarm
