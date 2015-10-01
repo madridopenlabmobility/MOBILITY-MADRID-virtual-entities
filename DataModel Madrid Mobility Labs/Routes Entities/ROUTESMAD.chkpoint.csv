@@ -1,0 +1,13 @@
+Attribute,Value,Property,URI,Description
+layer,ROUTESMAD.chkpoint,mobilitymadrid:layers,http://mobilitylab.emtmadrid.es/def/layers#usereventmad,kind of layer into RB or Mobility Servers. Layer ontology describes data domain Reactive Box and other elements of this entity
+_id,[_id],Schema:text,http://schema.org/Text,Unique id of item
+idRoute,[value],Schema:text,http://schema.org/Text,Unique id of route plan
+instant,[date time value],dcterms:date,xsd:datetime,Instant of data generation
+geometry,GEOJSON,point object,http://geojson.org/geojson-spec.html#id2, Geo-point of current position of user
+idSesion,[value],Schema:text,http://schema.org/Text,Current session of user track
+busData,[value],JSON structure,JSON structure,data of bus when the user device is linked to
+chkPointType,[value],schemas:Text,http://mobilitylab.emtmadrid.es/def/transport#chkpointtype,Type of check point (stop or any)
+chkPointId,[value],Schema:text,https://schemas.org/Text,Id of check point defined in userplan
+classType,[value],Schema:text,http://mobilitylab.emtmadrid.es/def/transport#typecheckpoint,Class of check Point
+nameRouteUser,[value],Schema:text,http://schema.org/Text,ID of user of route plan
+order,[value],schemas:Number,https://schemas.org/Number,Leg or fragment of trip (order into the general route in userplan)
