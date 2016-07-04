@@ -28,7 +28,6 @@ stopFindBusTest=72
 urlGetFindBusTest="https://openbus.emtmadrid.es:9443/emt-proxy-server/last/geo/GetArriveStop.php"
 
 useragent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-#params = {'idClient' : 'EMT.SERVICIOS.OPENBUS','passKey' : 'A2C983E5-5BA3-41F3-B47C-428F467041DC','idStop' : stopFindBusTest}
 params = {'idClient' : 'mobilitylabs.usertest','passKey' : 'usertest','idStop' : stopFindBusTest}
 headers = { 'User-Agent' : useragent,'Content-type':'application/x-www-form-urlencoded' }
 
@@ -175,7 +174,7 @@ if resultJson.has_key('arrives'):
                 datagram["vep_data"]=vep_data
                 user = "mobilitylabs.usertest"
                 credentSend = pika.PlainCredentials(user, "usertest")
-                #hostSend = '192.168.14.200'
+                
                 hostSend = "amqp.emtmadrid.es"
                 portSend = 5672
               
